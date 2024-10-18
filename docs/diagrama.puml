@@ -1,0 +1,17 @@
+@startuml Diagrama
+
+class Persona{
+   
+}
+class Foco{
+   - Bool encendido 
+   + Encender()
+   + Apagar()
+}
+
+
+Persona o-- Foco
+
+
+
+@enduml
